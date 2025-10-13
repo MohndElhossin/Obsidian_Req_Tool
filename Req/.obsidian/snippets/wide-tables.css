@@ -1,0 +1,103 @@
+/* Wide tables inside callouts */
+.callout .dataview.table-view-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    table-layout: auto !important;
+    border-collapse: separate !important; /* CHANGED: separate for row spacing */
+    border-spacing: 0 8px !important; /* Space between rows */
+    border: 1px solid var(--background-modifier-border) !important;
+}
+
+/* Make callouts wider */
+.callout {
+    max-width: none !important;
+}
+
+/* Specific targeting for summary callouts */
+.callout[data-callout="summary"] {
+    width: 100% !important;
+}
+
+/* Table header styling */
+.callout .table-view-table > thead > tr > th {
+    white-space: nowrap;
+    min-width: 10%;
+    max-width: none !important;
+    background-color: var(--background-primary-alt) !important;
+    border: 1px solid var(--background-modifier-border) !important;
+    padding: 12px 16px !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+}
+
+/* Table cell styling - with proper row separation */
+.callout .table-view-table > tbody > tr > td {
+    white-space: nowrap;
+    min-width: 10%;
+    max-width: none !important;
+    border: 1px solid var(--background-modifier-border) !important;
+    border-top: 2px solid var(--background-modifier-border) !important; /* Line above each row */
+    border-bottom: 2px solid var(--background-modifier-border) !important; /* Line below each row */
+    padding: 12px 16px !important;
+    text-align: left !important;
+}
+
+/* Force the callout content area to be full width */
+.callout-content {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Table row alternating colors */
+.callout .table-view-table > tbody > tr:nth-child(even) > td {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+.callout .table-view-table > tbody > tr:nth-child(odd) > td {
+    background-color: var(--background-primary) !important;
+}
+
+/* Hover effect on rows */
+.callout .table-view-table > tbody > tr:hover > td {
+    background-color: var(--background-modifier-hover) !important;
+}
+
+/* TABLE-SPECIFIC SIZING */
+.dataview.table-view-table {
+    width: 100% !important;
+    min-width: 800px !important;
+}
+
+/* Make table columns auto-expand to content */
+.table-view-table > thead > tr > th {
+    width: auto !important;
+}
+
+/* Remove any padding/margin constraints on table container */
+.markdown-reading-view .markdown-preview-sizer,
+.markdown-source-view.mod-cm6 .cm-sizer {
+    max-width: none !important;
+}
+
+/* Add some spacing between the two tables */
+.callout .dataview.table-view-table:first-of-type {
+    margin-bottom: 20px !important;
+}
+
+/* ENHANCED ROW SEPARATION */
+.callout .table-view-table > tbody > tr > td {
+    border-top: 3px solid #e0e0e0 !important; /* Strong line above each cell */
+    border-bottom: 3px solid #e0e0e0 !important; /* Strong line below each cell */
+}
+
+/* Remove side borders for cleaner look if needed */
+.callout .table-view-table > tbody > tr > td {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.callout .table-view-table > thead > tr > th {
+    border-left: none !important;
+    border-right: none !important;
+}
