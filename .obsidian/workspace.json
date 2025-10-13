@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "498f840861a41df7",
+        "id": "1efb837b7c18d922",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba2dc0087dccb1f",
+            "id": "bfe705a495143a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements Dashboard.md",
-                "mode": "preview",
+                "file": "Req/Requirements Dashboard.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -157,8 +157,8 @@
             "state": {
               "type": "link-tree",
               "state": {},
-              "icon": "list-tree",
-              "title": "Link Tree"
+              "icon": "lucide-ghost",
+              "title": "link-tree"
             }
           }
         ],
@@ -183,8 +183,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ff621c4d034b38a5",
+  "active": "bfe705a495143a73",
   "lastOpenFiles": [
+    "Req/Featurex.md",
+    "Req/Templates/Requirement Template.md",
+    "Req/Requirements Dashboard.md",
+    "README.md",
+    "Req/Excalidraw/Drawing 2025-10-13 12.37.26.excalidraw.md",
     "Obsidian_Req_Tool/Req/Templates/Requirement Template.md",
     "Obsidian_Req_Tool/Req/Excalidraw/REQ-001.excalidraw.md",
     "Obsidian_Req_Tool/Req/Featurex.md",
@@ -211,12 +216,7 @@
     "REQ-001.md",
     "[.md",
     "All Requirements.md",
-    "Feature.md",
-    "Untitled 7.md",
-    "Untitled 6.md",
-    "REQ-007.md",
     "requirement_counter.txt",
-    "Connectivity system req.md",
     "data_view",
     "Untitled.base",
     "Req/templates"

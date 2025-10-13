@@ -1,7 +1,5 @@
-> [!summary]  FeatureX Requirement 
-> ```dataview
-> TABLE Requirement_ID, Feature_Assignment,Requirement_Type,Priority,Description,Comments,Status,Upstream, Downstream
-> FROM "Featurex.md"
-> WHERE Requirement_ID
-> SORT RequirementID ASC
-> ```
+```dataview
+TABLE  Requirement_ID ,Feature_Assignment, Requirement_Type, Priority, Status, Upstream, Downstream
+FROM ""
+WHERE contains(file.name, "Featurex") OR contains(file.name, "featurex")
+```

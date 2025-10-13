@@ -30,8 +30,8 @@ try {
   let newRequirement = "";
   newRequirement += `## ${id}\n`;
   newRequirement += `Requirement_ID:: [[#${id}|${id}]]  \n`;
-  newRequirement += `Feature Assignment::  \n`;
-  newRequirement += `Requirement Type ::  \n`;
+  newRequirement += `Feature_Assignment::  \n`;
+  newRequirement += `Requirement_Type ::  \n`;
   newRequirement += `Priority:: Medium  \n`;
   newRequirement += `ObjectType:: Requirement  \n`;
   newRequirement += `**Description:**  \n\n`;

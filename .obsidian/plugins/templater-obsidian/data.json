@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "Req/Templates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/Requirement Template.md"
+    "Req/Templates/Requirement Template.md"
   ],
   "startup_templates": [
     ""
